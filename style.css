@@ -1,13 +1,14 @@
 .profilePic {
     border-radius: 50%;
     border: solid lightgray;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 }
 .text-bold {
-    font-weight: 900;
+    font-weight: 700;
     color: #888888;
 }
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -18,39 +19,50 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
+}
+
+li {
     display: inline-block;
+    margin: 25px;
+    color: #d2d2d2;
+    font-size: 22px;
 }
 
 a {
     text-decoration: none;
     background-color: #e16060;
-    padding: 12px 24px;
+    padding: 12px 10px 12px 10px;
     border-radius: 5px;
     color: white;
 }
 
 section {
     background-color: white;
-    width: 35%;
+    width: 40%;
     margin: 40px auto;
     padding: 20px;
     border: 1px solid #d3d1d1;
     border-radius: 5px;
-    text-align: center;
     -webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.23);
     -moz-box-shadow:    3px 3px 6px 0px rgba(50, 50, 50, 0.23);
     box-shadow:         3px 3px 6px 0px rgba(50, 50, 50, 0.23);
 }
 
+section p {
+    font-weight: 300;
+    word-spacing: 6px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
 h1 {
     color: #e16060;
     font-weight: 900;
+    font-size: 28px;
 }
 
 h2 {
 
 }
 
-p {
-    text-align: justify;
-}
