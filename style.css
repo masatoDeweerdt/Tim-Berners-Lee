@@ -8,7 +8,14 @@
     font-weight: 700;
     color: #888888;
 }
-
+.cover {
+    width: 100px;
+    height: 150px;
+}
+.synopsis {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -35,6 +42,7 @@ a {
     padding: 12px 10px 12px 10px;
     border-radius: 5px;
     color: white;
+    font-size: 18px;
 }
 
 section {
@@ -51,9 +59,15 @@ section {
 
 section p {
     font-weight: 300;
-    word-spacing: 6px;
+    word-spacing: 4px;
     text-align: justify;
     line-height: 1.6;
+    font-size: 18px;
+}
+
+
+table tr td {
+    border-spacing: 15px;
 }
 
 h1 {
@@ -62,7 +76,7 @@ h1 {
     font-size: 28px;
 }
 
-h2 {
-
+h3 {
+    font-size: 20px;
 }
 
