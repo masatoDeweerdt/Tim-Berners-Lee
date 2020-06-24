@@ -17,6 +17,11 @@
     padding-right: 10px;
 }
 
+.his {
+    background-color: lightgrey;
+    border-radius: 1px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #eeeeee;
@@ -45,11 +50,15 @@ a {
     font-size: 18px;
 }
 
+button {
+
+}
+
 section {
     background-color: white;
     width: 40%;
     margin: 40px auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #d3d1d1;
     border-radius: 5px;
     -webkit-box-shadow: 3px 3px 6px 0px rgba(50, 50, 50, 0.23);
